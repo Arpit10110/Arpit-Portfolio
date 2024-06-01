@@ -1,0 +1,91 @@
+.skill-wrapper {
+    background-image: linear-gradient(301deg, #321c54c9, #2917466b, #2e1d4b96, #33166338);
+    width: 100%;
+    padding-top: 2rem;
+    height: auto;
+    padding-bottom: 5rem;
+}
+.skill-head{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.skill-head h2{
+    font-weight: bold;
+    font-size: 3.5rem;
+    font-family: "Merienda", cursive;
+    text-align: center;
+    background-clip: text;
+    background-image: linear-gradient(54deg, #b448e6, #b670d3, #bfa6cb);
+    color: rgba(255, 255, 255, 0);
+}
+.frontend h3{
+    font-weight: bold;
+    font-size: 3rem;
+    font-family: "Merienda", cursive;
+}
+.backend h3{
+    font-weight: bold;
+    font-size: 3rem;
+    font-family: "Merienda", cursive;
+}
+.frontend img{
+    width: 70%;
+    height: 50vh;
+    object-fit: contain;
+    animation: imgUp 0.9s linear infinite alternate;
+}
+.backend img{
+    width: 70%;
+    height: 50vh;
+    object-fit: contain;
+    animation: imgdown 0.9s linear infinite alternate;
+}
+.web{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 5rem;
+}
+.frontend{
+    width: 40%;
+    gap: 3rem;
+    padding-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.backend{
+    width: 40%;
+    gap: 3rem;
+    padding-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+@keyframes imgUp {
+    to {
+      transform: translateY(-7px);
+    }
+  }
+  @keyframes imgdown {
+    to {
+      transform: translateY(7px);
+    }
+  }
+
+@media only screen and (width<=500px) {
+    .web{
+        flex-direction: column;
+    }
+    .frontend {
+        width: 100%;
+        gap: 1rem;
+    }
+    .backend {
+        width: 100%;
+        gap: 1rem;
+    }
+}

@@ -1,0 +1,119 @@
+.sec1-main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: auto;
+    padding-top: 5rem;
+    padding-bottom: 3rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    background-image: linear-gradient(239deg, #321c54c9, #2917466b, #2e1d4b96, #33166338);
+}
+.sec1-cont{
+    font-size: 2.5rem;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.cont-inner{
+    display: flex;
+    flex-direction: column;
+    gap: 0.7rem;
+}
+.cont-inner p{
+    color: #ffffffd6;
+}
+.coonects {
+    display: flex;
+    margin-top: 0.5rem;
+    align-items: center;
+    gap: 1.5rem;
+}
+.coonects button {
+    padding: 0.8rem;
+    font-size: 1.5rem;
+    background-color: transparent;
+    border: 2px solid #ae02ff;
+    color: #c240ff;
+    border-radius: 2rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+.social{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+}
+.social a {
+    color: white;
+    display: flex;
+    animation: imgUp 0.9s linear infinite alternate;
+}
+.social a .social-Icon {
+    font-size: 2rem;
+    border: 2px solid #c240ff;
+    padding: 0.4rem;
+    color: #ffffffd6;
+    border-radius: 50%;
+}
+.sec1-img {
+    background-color: #a800ff33;
+    width: 30%;
+    border-radius: 30% 70% 58% 42% / 30% 37% 63% 70%;
+    padding: 2rem;
+    display: flex;
+    border: 2px solid #8126b4;
+    justify-content: center;
+    align-items: center;
+    animation: imgUp 0.9s linear infinite alternate;
+}
+.sec1-img:hover{
+    border: 2px solid #b941ff;
+}
+.sec1-img img{
+    width: 85%;
+    filter: brightness(0.7);
+    object-fit: scale-down;
+}
+@keyframes imgUp {
+    to {
+      transform: translateY(-5px);
+    }
+  }
+.cont-inner h2{
+    background-clip: text;
+    background-image: linear-gradient(100deg, #b039e8, #a49e9e, #ffffff);
+    color: rgba(255, 255, 255, 0);
+}
+.cont-inner h1{
+    background-clip: text;
+    background-image: linear-gradient(100deg, #b039e8, #a49e9e, #ffffff);
+    color: #0000;
+}
+
+@media only screen and (width<=500px){
+    .sec1-main {
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+        height: auto;
+        padding-top: 0rem;
+        padding-bottom: 3rem;
+        gap: 5rem;
+        flex-direction: column;
+        padding-left: 1rem;
+        padding-right: 0rem;
+    }
+    .sec1-cont {
+        width: 90%;
+    }
+    .sec1-img {
+        width: 80%;
+        margin: auto;
+    }
+}

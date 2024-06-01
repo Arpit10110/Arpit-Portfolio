@@ -1,0 +1,77 @@
+nav{
+    background-color: transparent;
+    height: 15vh;
+    display: flex;
+    background-image: linear-gradient(346deg, #321c54c9, #2917466b, #2e1d4b96, #33166338);
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    backdrop-filter: blur(3px);
+    -webkit-backdrop-filter: blur(4px);
+}
+.mobile-links{
+    display: none;
+}
+.logo h3{
+    font-size: 3.5rem;
+    font-weight: 500;
+    font-family: "Kalam", cursive;
+}
+.links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+    font-size: 2rem;
+}
+.links a{
+    color: white;
+    font-weight: 500;
+}
+.links a:hover{
+    color: rgb(255 0 255);
+}
+
+@media only screen and (width<=500px){
+    .mobile-links{
+        display: inline;
+    }
+    .mobile-links button{
+        padding: 0.2rem;
+        background-color: transparent;
+        border: navajowhite;
+    }
+    .mobile-links button .MenuIcon{
+        color: white;
+        font-size: 4rem;
+    }
+    .all-links {
+        display: flex;
+        padding: 3rem;
+        flex-direction: column;
+        gap: 5rem;
+        font-size: 2.5rem;
+        align-items: center;
+        height: 100vh;
+        justify-content: center;
+        background-color: #211237;
+    }
+    .all-links a{
+        color: white;
+    }
+    nav {
+        background-color: transparent;
+        height: 15vh;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-left: 1rem;
+        padding-right: 2.5rem;
+        backdrop-filter: blur(3px);
+        -webkit-backdrop-filter: blur(4px);
+    }
+    .links {
+        display: none;
+    }
+}

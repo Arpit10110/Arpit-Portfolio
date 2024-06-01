@@ -1,0 +1,8 @@
+.Footer-wrapper{
+    background-image: linear-gradient(223deg, #321c54c9, #2917466b, #2e1d4b96, #33166338);
+    padding: 2rem;
+}
+.Footer-wrapper h1{
+    text-align: center;
+    font-size: 1.6rem;
+}
