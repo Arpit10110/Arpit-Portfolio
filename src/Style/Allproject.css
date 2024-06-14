@@ -1,0 +1,38 @@
+.allproject-main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 8rem;
+    column-gap: 12rem;
+    row-gap: 8rem;
+    padding-bottom: 10rem;
+}
+.frontend-main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 8rem;
+    column-gap: 12rem;
+    row-gap: 8rem;
+    padding-bottom: 10rem;
+}
+.fullstack-main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 8rem;
+    column-gap: 12rem;
+    row-gap: 8rem;
+    padding-bottom: 10rem;
+}
+@media only screen and (width<=600px){
+  .allproject-main{
+    row-gap: 5rem;
+  }
+  .fullstack-main{
+    row-gap: 5rem;
+  }
+  .frontend-main{
+    row-gap: 5rem;
+  }
+}

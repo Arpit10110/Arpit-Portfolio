@@ -18,6 +18,7 @@ const Contact = () => {
         Aos.init();
       }, [])
   return (
+    <>
     <div className='Contact' id="contact">
         <div data-aos="flip-left" data-aos-anchor-placement="center-bottom"  data-aos-duration="2000" className="contactbox-wrapper">
             <h1>Let's work together!</h1>
@@ -35,8 +36,6 @@ const Contact = () => {
                 </div>
                 <button>Send Messgae</button>
             </form>
-        <ToastContainer
-        position="top-right" autoClose={3000} hideProgressBar={false} newestOnTop={false} closeOnClick rtl={false} pauseOnFocusLoss draggable pauseOnHover theme="dark"/>
         </div>
         <div data-aos="flip-right" data-aos-anchor-placement="center-bottom"  data-aos-duration="2000" className="personalD-wrapper">
             <div className="personal-deatil">
@@ -70,6 +69,8 @@ const Contact = () => {
             </div>
         </div>
     </div>
+    <ToastContainer position="top-right" autoClose={3000} hideProgressBar={false} newestOnTop={false} closeOnClick rtl={false} pauseOnFocusLoss draggable pauseOnHover theme="dark"/>
+    </>
   )
 }
 

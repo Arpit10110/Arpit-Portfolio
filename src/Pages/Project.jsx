@@ -9,7 +9,7 @@ const Project = () => {
    <div className="project-main">
     <div className="project-nav">
         <Link to="frontend" >Frontend Projects</Link>
-        <Link to="all">ALL Projects</Link>
+        <Link to="">All Projects</Link>
         <Link to="fullstack" >Full Stack Projects</Link>
     </div>
    </div>   

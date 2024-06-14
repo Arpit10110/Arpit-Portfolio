@@ -13,5 +13,11 @@
     font-size: 1.8rem;
     padding: 0.5rem;
     border-radius: 10px;
-    background-color: #8342b2;
+    background-color: #8342b2ad;
+}
+@media only screen and (width<=600px){
+    .project-nav {
+        display: flex;
+        gap: 1rem;
+    }
 }

@@ -5,7 +5,7 @@ import backend from "../../assets/backend.png"
 import Aos from "aos";
 import "aos/dist/aos.css";
 const Skill = () => {
-    useEffect(() => {
+    useEffect(() => { 
         Aos.init();
       }, [])
   return (
