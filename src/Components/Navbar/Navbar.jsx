@@ -30,7 +30,7 @@ const Navbar = () => {
         data-aos-duration="2500"
       >
         <Link to="/">Home</Link>
-        <Link>Projects</Link>
+        <Link to="/projects" >Projects</Link>
         <HashLink to="/#skill">Skill</HashLink>
         <Link to="/certificate" >Certificate</Link>
         <HashLink to="/#contact">Contact me</HashLink>
@@ -54,7 +54,7 @@ const Navbar = () => {
             <Link to="/" onClick={() => {
             setOpen(false);
           }} >Home</Link>
-            <Link onClick={() => {
+            <Link to="/projects" onClick={() => {
             setOpen(false);
           }}>Projects</Link>
             <HashLink to="/#skill" onClick={() => {
