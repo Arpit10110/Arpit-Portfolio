@@ -31,7 +31,7 @@ export const Allprojectsapi =[
     },
     {
         name:"Superhuman",
-        link:"https://superhuman.vercel.app",
+        link:"https://superhuman.onrender.com/",
         github:"https://github.com/Arpit10110/Superhuman",
         techstack:["Html","CSS","JavaScript","React.js"]
     },
