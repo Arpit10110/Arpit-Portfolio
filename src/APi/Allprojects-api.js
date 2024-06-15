@@ -6,6 +6,12 @@ export const Allprojectsapi =[
         techstack:["Html","CSS","JavaScript","React.js","locomotive","Gsap"]
     },
     {
+        name:"Rangbazi",
+        link:"https://rangbazi.vercel.app/",
+        github:"https://github.com/Arpit10110/RangBazi-frontend",
+        techstack:["Html","CSS","JavaScript","React.js","Firebase","Node.js","Express.js","MongodB"]
+    },
+    {
         name:"Aniarpit",
         link:"https://aniarpit.vercel.app/",
         github:"https://github.com/Arpit10110/AniArpit",

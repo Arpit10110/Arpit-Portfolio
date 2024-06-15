@@ -1,5 +1,11 @@
 export const FullstackApi =[
     {
+        name:"Rangbazi",
+        link:"https://rangbazi.vercel.app/",
+        github:"https://github.com/Arpit10110/RangBazi-frontend",
+        techstack:["Html","CSS","JavaScript","React.js","Firebase","Node.js","Express.js","MongodB"]
+    },
+    {
         name:"Khao Piyo",
         link:"https://khaopiyo.onrender.com",
         github:"https://github.com/Arpit10110/KhaoPiyo",
