@@ -12,6 +12,12 @@ export const Frontendapi =[
         techstack:["Html","CSS","JavaScript","React.js","Consumet Api"]
     },
     {
+        name:"PixFinder",
+        link:"https://pixfinder-arpit.vercel.app",
+        github:"https://github.com/Arpit10110/PixFinder",
+        techstack:["Html","CSS","JavaScript","React.js","Unsplash api"]
+    },
+    {
         name:"Superhuman",
         link:"https://superhuman.onrender.com/",
         github:"https://github.com/Arpit10110/Superhuman",

@@ -30,6 +30,12 @@ export const Allprojectsapi =[
         techstack:["Html","CSS","JavaScript","React.js","Firebase","Node.js","Express.js","MongodB"]
     },
     {
+        name:"PixFinder",
+        link:"https://pixfinder-arpit.vercel.app",
+        github:"https://github.com/Arpit10110/PixFinder",
+        techstack:["Html","CSS","JavaScript","React.js","Unsplash api"]
+    },
+    {
         name:"Foodsegra",
         link:"https://foodsegra.onrender.com",
         github:"https://github.com/Arpit10110/Food-Segra",
