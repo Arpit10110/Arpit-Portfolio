@@ -1,5 +1,11 @@
 export const Allprojectsapi =[
     {
+        name:"HealthBridge",
+        link:"https://healthbridges.vercel.app/",
+        github:"https://github.com/Arpit10110/HealthBridge-frontend",
+        techstack:["Html","CSS","JavaScript","React.js","Firebase","Node.js","Express.js","MongodB"]
+    },
+    {
         name:"Ochi",
         link:"https://ochi-arpit.vercel.app",
         github:"https://github.com/Arpit10110/Ochi",

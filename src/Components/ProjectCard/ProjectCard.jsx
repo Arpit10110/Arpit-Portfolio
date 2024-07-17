@@ -13,12 +13,12 @@ const ProjectCard = ({name,github,link,techstack}) => {
    <>
         <div data-aos="fade-up" data-aos-anchor-placement="center-bottom"  data-aos-duration="2000"  className="project-card">
             <div className="project-links">
-                <Link className='github-link' to={github} >
+                <a className='github-link' target="_blanck" href={github} >
                 <GitHubIcon className='github-icon' />
-                </Link>
-                <Link className='arrow-link' to={link} >
+                </a>
+                <a className='arrow-link' target="_blanck" href={link} >
                 <ArrowOutwardIcon className='arrow-icon'/>
-                </Link>
+                </a>
             </div>
             <div className="project-name">
                 <h2>{name}</h2>

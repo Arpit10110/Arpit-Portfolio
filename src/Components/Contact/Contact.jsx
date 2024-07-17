@@ -45,7 +45,7 @@ const Contact = () => {
                     </div>
                     <div className="Pdeatil-cont">
                         <h3>Phone</h3>
-                        <a href="tel:+918840689883">+918840689883</a>
+                        <a href="tel:+919599056856">+919599056856</a>
                     </div>
                 </div>
                 <div className="Pdeatil">
