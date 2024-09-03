@@ -15,7 +15,7 @@ const Section1 = () => {
     Aos.init();
   }, [])
   const downloadCV = ()=>{
-    window.open("https://drive.google.com/file/d/1fVCd2zqFGBzYAeI-biyLdByTdt9VgoD_/view")
+    window.open("https://drive.google.com/file/d/1G9laUgLonBASX2Zjp1ncMQiJkJu61a3r/view?usp=sharing")
   }
   return (
     <section className='sec1-main'>
