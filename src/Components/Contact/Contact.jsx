@@ -13,7 +13,7 @@ const Contact = () => {
     if (state.succeeded) {
       toast.success("Message sent", { position: "top-right", autoClose: 3000, hideProgressBar: false, closeOnClick: true, pauseOnHover: true, draggable: true, progress: undefined, theme: "dark",});
       document.getElementById("myForm").reset();
-    }
+    } 
     useEffect(() => {
         Aos.init();
       }, [])

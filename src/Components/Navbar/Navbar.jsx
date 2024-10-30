@@ -12,7 +12,7 @@ const Navbar = () => {
   useEffect(() => {
     Aos.init();
   }, []);
-
+ 
   return (
     <nav>
       <div
