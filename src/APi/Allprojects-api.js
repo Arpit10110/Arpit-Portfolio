@@ -12,6 +12,12 @@ export const Allprojectsapi =[
         techstack:["Html","CSS","JavaScript","React.js","locomotive","Gsap"]
     },
     {
+        name:"Vision Pro",
+        link:"https://vision-pro-mu.vercel.app",
+        github:"https://github.com/Arpit10110/VisionPro",
+        techstack:["Html","CSS","JavaScript","React.js","locomotive","Gsap","SheryExtract"]
+    },
+    {
         name:"Rangbazi",
         link:"https://rangbazi.vercel.app/",
         github:"https://github.com/Arpit10110/RangBazi-frontend",
