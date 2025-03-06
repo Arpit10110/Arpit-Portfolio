@@ -1,5 +1,23 @@
 export const Allprojectsapi =[
     {
+        name:"TinyClo",
+        link:"https://kudosware-testing.vercel.app/",
+        github:"https://github.com/Arpit10110/kudosware-testing",
+        techstack:["Html","CSS","JavaScript","React.js","Firebase","Node.js","Express.js","MongodB","ShopifyAdmin"]
+    },
+    {
+        name:"Kalakaari-ai",
+        link:"https://kalakaari-ai.vercel.app/",
+        github:"https://github.com/Arpit10110/Kalakaari-AI",
+        techstack:["Next.js","Aos","Razorpay","MongodB","JavaScript","Material-UI"]
+    },
+    {
+        name:"Ghumakkad",
+        link:"https://ghumakad.vercel.app/",
+        github:"https://github.com/Arpit10110/HealthBridge-frontend",
+        techstack:["Next.js","Aos","Razorpay","MongodB","JavaScript","Acerternity","Material-UI"]
+    },
+    {
         name:"HealthBridge",
         link:"https://healthbridges.vercel.app/",
         github:"https://github.com/Arpit10110/HealthBridge-frontend",
