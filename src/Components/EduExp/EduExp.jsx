@@ -50,6 +50,16 @@ const EduExp = () => {
                     <h1>Edunet Foundation</h1>
                     <h2>Full Stack Developer</h2>
                 </div>
+                <div className="expdeatil">
+                    <h3>Dec 2023-Jan 2024</h3>
+                    <h1>Edunet Foundation</h1>
+                    <h2>Full Stack Developer</h2>
+                </div>
+                <div className="expdeatil">
+                    <h3>Dec 2023-Jan 2024</h3>
+                    <h1>Edunet Foundation</h1>
+                    <h2>Full Stack Developer</h2>
+                </div>
             </div>
         </div>
     </div>
