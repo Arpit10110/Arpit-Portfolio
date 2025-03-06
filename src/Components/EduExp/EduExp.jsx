@@ -36,24 +36,14 @@ const EduExp = () => {
             <h2 className="experience-logo"><WorkspacePremiumIcon className='exp-Icon'/>My Experience</h2>
             <div className="exerience-detail">
                 <div className="expdeatil">
-                    <h3>July 2023-Present</h3>
-                    <h1>GeeksforGeeks</h1>
-                    <h2>GFG Campus Ambassador</h2>
+                    <h3>Oct 2024-Jan 2025</h3>
+                    <h1>Kudosware</h1>
+                    <h2>Full Stack Developer</h2>
                 </div>
                 <div className="expdeatil">
                     <h3>March 2024-May 2024</h3>
                     <h1>Shoopy Store</h1>
                     <h2>Frontend Developer</h2>
-                </div>
-                <div className="expdeatil">
-                    <h3>Dec 2023-Jan 2024</h3>
-                    <h1>Edunet Foundation</h1>
-                    <h2>Full Stack Developer</h2>
-                </div>
-                <div className="expdeatil">
-                    <h3>Dec 2023-Jan 2024</h3>
-                    <h1>Edunet Foundation</h1>
-                    <h2>Full Stack Developer</h2>
                 </div>
                 <div className="expdeatil">
                     <h3>Dec 2023-Jan 2024</h3>
